@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import './assets/global.css';
+import Header from './components/header/Header';
+import Foother from './components/foother/Foother';
+import Chapter from './components/chapter/Chapter';
+import Video from './components/videos/Video';
+import Loader from './components/loader/Loader';
+import usePreloader from './components/hook/userpleoader/Userpreloader';
+import MyPages from './components/router/Index';
+import Scrolling from './components/scrolling/Scrolling';
+
 
 function App() {
+  const { loading } = usePreloader();
+  // if (loading) {
+  //   return <Loader />
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <div className="App">
+    
+        <MyPages/>
+      </div>
+    </>
   );
 }
 
