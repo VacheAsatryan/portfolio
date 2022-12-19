@@ -12,14 +12,11 @@ function Header() {
                         <Link to="/" > <h1>Vache Asatryan</h1></Link>
                            
                         </div>
-                        <div className="circle animate__animated animate__fadeInDown" style={{backgroundImage:`url(${image})`}}>
-                            {/* <img src={image} alt="Vache" className='jpg'/> */}
-                        </div>
+                     
                         <div className="menu">
                            <Link to="/skills">Skills</Link>
+                           <Link to="/about">About</Link>
                            
-
-                         
                         </div>
                     </div>
                 </div>

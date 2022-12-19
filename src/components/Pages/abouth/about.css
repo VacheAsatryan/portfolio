@@ -1,0 +1,29 @@
+.about{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+}
+.aboutBody{
+    width: 100%;
+    height: 85%;
+}
+.aboutmenu{
+    width: 100%;
+    height: 15%;
+    background-color: grey;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.back , .links{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.name , .link {
+    color: snow;
+}
