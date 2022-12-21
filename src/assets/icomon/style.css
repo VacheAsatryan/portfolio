@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wamt8j');
+  src:  url('fonts/icomoon.eot?wamt8j#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wamt8j') format('truetype'),
+    url('fonts/icomoon.woff?wamt8j') format('woff'),
+    url('fonts/icomoon.svg?wamt8j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-javascript:before {
+  content: "\e907";
+  color: #f7df1e;
+  font-size: 70px;
+}
+.icon-mongodb:before {
+  content: "\e906";
+  color: #47a248;
+  font-size: 70px;
+}
+.icon-redux:before {
+  content: "\e900";
+  color: #764abc;
+  font-size: 70px;
+}
+.icon-node-dot-js:before {
+  content: "\e901";
+  color: #393;
+  font-size: 70px;
+}
+.icon-react:before {
+  content: "\e902";
+  color: #61dafb;
+  font-size: 70px;
+}
+.icon-sass:before {
+  content: "\e903";
+  color: #c69;
+  font-size: 70px;
+}
+.icon-css3:before {
+  content: "\e904";
+  color: #1572b6;
+  font-size: 70px;
+}
+.icon-html5:before {
+  content: "\e905";
+  color: #e34f26;
+  font-size: 70px;
+}
+.icon-github:before {
+  content: "\eab0";
+  font-size: 70px;
+}

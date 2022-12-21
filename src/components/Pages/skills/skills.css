@@ -3,3 +3,97 @@
     height: 100vh;
     
 }
+.skilHead{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skilBody{
+    width: 100%;
+    height: 100%;
+   margin-top: 7%;
+
+
+}
+.datas{
+
+    width: 100%;
+    height: 20%;
+    background:linear-gradient(70deg,black,yellow,black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datas h1{
+    color: snow;
+}
+.text{
+    width: 50%;
+    height: 60%;
+    padding-top: 2%; 
+    font-family: Franklin Gothic Medium;
+}
+.paralax{
+    position: relative;
+    width: 100%;
+    height:90vh;
+    background-color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skil{
+    width: 80%;
+    height: 90%;
+    border-bottom: 2px solid snow;
+
+}
+.hidden{
+    width: 80%;
+    height: 90%;
+    border: 2px solid yellow;
+
+}
+.skillSection{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.effect{
+    width: 20%;
+    height: 100%;
+
+}
+.atribute{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+}
+.star{
+    color: white;
+}
+.bottom h1{
+    color: snow;
+    font-size: medium;
+}

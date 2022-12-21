@@ -15,7 +15,7 @@ function About(){
                     <Link to="/about" className='link'>About</Link>
                     </div>
                 </div>
-                    .
+                    
             </div>
             <Foother/>
         </div>
